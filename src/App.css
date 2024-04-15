@@ -1,0 +1,16 @@
+:root {
+  --text-colour: #f7f4e3;
+  --background-colour: #d2e1c8;
+  --primary-colour: #f9c4aa;
+  --secondary-colour: #fee4a6;
+  --font-family: "Merriweather", serif;
+}
+body {
+  background-color: var(--background-colour);
+}
+.App {
+  color: var(--text-colour);
+  font-size: 52px;
+  font-family: var(--font-family);
+  text-align: center;
+}
