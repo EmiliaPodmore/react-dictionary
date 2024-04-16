@@ -33,8 +33,9 @@ export default function App() {
             href="https://keyword-react-dictionary.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
-          ></a>
-          hosted on Netlify
+          >
+            hosted on Netlify
+          </a>
         </footer>
       </div>
     </div>
