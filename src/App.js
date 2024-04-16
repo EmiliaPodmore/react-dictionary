@@ -27,8 +27,13 @@ export default function App() {
           >
             open-sourced on Github
           </a>{" "}
-          and <a href="/" target="_blank" rel="noopener noreferrer"></a>hosted
-          on Netlify
+          and{" "}
+          <a
+            href="https://keyword-react-dictionary.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          ></a>
+          hosted on Netlify
         </footer>
       </div>
     </div>
