@@ -9,8 +9,6 @@ body {
   background-color: var(--light-colour);
 }
 header {
-  background-color: var(--primary-colour);
-  color: var(--light-colour);
   font-size: 64px;
   font-family: var(--font-family);
   font-weight: bold;
