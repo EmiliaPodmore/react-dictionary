@@ -6,13 +6,14 @@ export default function Dictionary() {
   let [keyword, setKeyword] = useState("");
 
   function handleResponse(response) {
-    console.log(response.data[0]);
+    console.log(response.data);
   }
 
   function search(event) {
     event.preventDefault();
-    //documentation: https://dictionaryapi.dev/
-    let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
+    //documentation: https://api.shecodes.io/dictionary/v1/define?word=book&key=97ca3fd7c1847b8c2t8cf2o00a730a3a
+    let apiKey = "97ca3fd7c1847b8c2t8cf2o00a730a3a";
+    let apiUrl = `https://api.shecodes.io/dictionary/v1/define?word=${keyword}&key=${apiKey}`;
     axios.get(apiUrl).then(handleResponse);
   }
 
@@ -22,7 +23,12 @@ export default function Dictionary() {
   return (
     <div className="Dictionary">
       <form onSubmit={search}>
-        <input type="search" autoFocus={true} onChange={handleKeywordChange} />
+        <input
+          type="search"
+          placeholder="Enter a word..."
+          autoFocus={true}
+          onChange={handleKeywordChange}
+        />
       </form>
     </div>
   );
