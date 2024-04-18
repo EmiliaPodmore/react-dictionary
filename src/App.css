@@ -1,8 +1,8 @@
 :root {
-  --light-colour: #fcf8f3;
-  --dark-colour: #698474;
-  --primary-colour: #ffaaa5;
-  --secondary-colour: #ffd3b6;
+  --light-colour: #f2f9f1;
+  --dark-colour: #5c715e;
+  --primary-colour: #b6cdbd;
+  --secondary-colour: #ddeedf;
   --font-family: "Jost", sans-serif;
 }
 body {
