@@ -11,21 +11,23 @@
   transition: all 150ms ease-in-out;
 }
 .Dictionary section:hover {
-  box-shadow: 6px 8px #b6cdbd;
+  transform: translateY(-4px) translateX(-2px);
+  box-shadow: 6px 8px 6px rgb(52, 52, 52, 0.4);
 }
-input {
+.Dictionary input {
+  color: #e85e66;
+  width: 100%;
+  padding: 6px 10px;
+  border-radius: 6px;
   border: 1px solid #ffff;
 }
-h3 {
-  font-family: var(--secondary-font);
-}
-small {
+.Dictionary .Suggestion {
   color: #b6cdbd;
 }
 em {
   color: #e85e66;
 }
 .Definition {
-  color: #343434;
+  color: #5a5c5a;
   font-size: 20px;
 }
