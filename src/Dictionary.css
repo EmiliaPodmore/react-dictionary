@@ -1,4 +1,21 @@
 .Dictionary {
-  background-color: var(--light-colour);
-  color: var(--dark-colour);
+  background-color: var(--background-colour);
+  color: var(--text-colour);
+}
+input {
+  border: 1px solid #b6cdbd;
+}
+h1 {
+  font-size: 44px;
+  font-family: var(--secondary-font);
+}
+h2 {
+  color: #e85e66;
+}
+h3 {
+  color: var(--primary-colour);
+  font-family: var(--secondary-font);
+}
+.Definition {
+  font-size: 20px;
 }

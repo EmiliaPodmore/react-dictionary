@@ -1,17 +1,19 @@
 :root {
-  --light-colour: #f2f9f1;
-  --dark-colour: #5c715e;
-  --primary-colour: #b6cdbd;
-  --secondary-colour: #ddeedf;
-  --font-family: "Jost", sans-serif;
+  --background-colour: #f2f9f1;
+  --text-colour: #5c715e;
+  --primary-colour: #8d644b;
+  --secondary-colour: #b6cdbd;
+  --primary-font: "Jost", sans-serif;
+  --secondary-font: "Spectral", serif;
 }
 body {
-  background-color: var(--light-colour);
+  background-color: var(--background-colour);
+  font-family: var(--primary-font);
 }
 header {
-  color: #5c715e;
+  color: var(--text-colour);
   font-size: 64px;
-  font-family: var(--font-family);
+  font-family: var(--primary-font);
   font-weight: bold;
   letter-spacing: 4px;
   text-align: center;
@@ -19,7 +21,8 @@ header {
 footer {
   color: var(--primary-colour);
   font-size: 20px;
-  font-family: var(--font-family);
+  font-family: var(--primary-font);
+  font-weight: light;
   text-align: center;
   margin: 30px;
 }
