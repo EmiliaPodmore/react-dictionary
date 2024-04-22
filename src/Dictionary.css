@@ -8,7 +8,10 @@
   margin: 20px 100px;
   border-radius: 8px;
   border: 2px solid #b6cdbd;
-  box-shadow: 6px 6px #b6cdbd;
+  transition: all 150ms ease-in-out;
+}
+.Dictionary section:hover {
+  box-shadow: 6px 8px #b6cdbd;
 }
 input {
   border: 1px solid #ffff;
