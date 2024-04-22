@@ -6,7 +6,7 @@ input {
   border: 1px solid #b6cdbd;
 }
 h1 {
-  font-size: 44px;
+  font-size: 48px;
   font-family: var(--secondary-font);
 }
 h2 {
@@ -15,6 +15,7 @@ h2 {
 h3 {
   color: var(--primary-colour);
   font-family: var(--secondary-font);
+  font-weight: 300;
 }
 .Definition {
   font-size: 20px;
