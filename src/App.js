@@ -6,9 +6,9 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <header>Dictionary</header>
+        <header className="header"> Dictionary</header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="spring" />
         </main>
         <footer>
           {" "}

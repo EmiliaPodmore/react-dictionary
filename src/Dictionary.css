@@ -2,21 +2,27 @@
   background-color: var(--background-colour);
   color: var(--text-colour);
 }
+.Dictionary section {
+  background-color: #ffff;
+  padding: 20px;
+  margin: 20px 100px;
+  border-radius: 8px;
+  border: 2px solid #b6cdbd;
+  box-shadow: 6px 6px #b6cdbd;
+}
 input {
-  border: 1px solid #b6cdbd;
-}
-h1 {
-  font-size: 48px;
-  font-family: var(--secondary-font);
-}
-h2 {
-  color: #e85e66;
+  border: 1px solid #ffff;
 }
 h3 {
-  color: var(--primary-colour);
   font-family: var(--secondary-font);
-  font-weight: 300;
+}
+small {
+  color: #b6cdbd;
+}
+em {
+  color: #e85e66;
 }
 .Definition {
+  color: #343434;
   font-size: 20px;
 }
