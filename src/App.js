@@ -6,7 +6,13 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="header">Dictionary ❧</header>
+        <header className="header">
+          Dictionary
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/123/698/original/bookshelf.gif?1713527161"
+            alt="Animated books"
+          ></img>
+        </header>
         <main>
           <Dictionary defaultKeyword="spring" />
         </main>

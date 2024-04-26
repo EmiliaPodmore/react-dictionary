@@ -1,10 +1,10 @@
 :root {
-  --background-colour: #f2f9f1;
-  --text-colour: #5c715e;
-  --primary-colour: #b6cdbd;
-  --secondary-colour: #e85e66;
+  --background-colour: #ffff;
+  --text-colour: #042a75;
+  --primary-colour: #26a2cc;
+  --secondary-colour: #fd6050;
   --primary-font: "Jost", sans-serif;
-  --secondary-font: "Spectral", serif;
+  --secondary-font: "IBM Plex Mono", monospace;
 }
 body {
   background-color: var(--background-colour);
@@ -19,29 +19,29 @@ header {
   text-align: center;
 }
 .header {
-  animation: fade-in 1s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
 }
-
-@keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+img {
+  margin-left: 20px;
+  max-width: 100px;
 }
 footer {
-  color: var(--primary-colour);
-  font-size: 20px;
+  color: var(--secondary-colour);
+  font-size: 16px;
   font-family: var(--secondary-font);
   text-align: center;
+  padding: 20px;
   margin: 30px;
+  border-top: 2px solid #042a75;
 }
 footer a {
-  color: var(--primary-colour);
+  color: var(--secondary-colour);
   text-decoration: none;
   transition: all 150ms ease-in-out;
 }
 footer a:hover {
-  color: var(--secondary-colour);
+  color: var(--primary-colour);
 }

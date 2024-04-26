@@ -32,7 +32,7 @@ export default function Dictionary(props) {
   if (loaded) {
     return (
       <div className="Dictionary">
-        <section>
+        <div className="Search-bar">
           <form onSubmit={handleSubmit}>
             <input
               type="search"
@@ -42,9 +42,9 @@ export default function Dictionary(props) {
             />
           </form>
           <div className="Suggestion">
-            <small>suggestions: Autumn, Bonsai, Conundrum...</small>
+            <small>Suggestions: Autumn, Bonsai, Conundrum...</small>
           </div>
-        </section>
+        </div>
         <Results results={results} />
       </div>
     );

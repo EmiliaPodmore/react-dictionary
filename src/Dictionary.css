@@ -7,27 +7,32 @@
   padding: 20px;
   margin: 20px 100px;
   border-radius: 8px;
-  border: 2px solid #b6cdbd;
-  transition: all 150ms ease-in-out;
 }
-.Dictionary section:hover {
-  transform: translateY(-4px) translateX(-2px);
-  box-shadow: 6px 8px 6px rgb(52, 52, 52, 0.4);
+.Search-bar {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 20px 100px;
 }
 .Dictionary input {
   color: #e85e66;
-  width: 100%;
+  width: 90%;
   padding: 6px 10px;
   border-radius: 6px;
-  border: 1px solid #ffff;
+  border: 1px solid #d2dcfd;
 }
 .Dictionary .Suggestion {
-  color: #b6cdbd;
+  color: #94b2f4;
+  font-family: var(--secondary-font);
+  margin-top: 10px;
+  line-height: 1.5;
 }
-em {
-  color: #e85e66;
+.Example {
+  color: #26a2cc;
+  line-height: 2;
 }
 .Definition {
-  color: #5a5c5a;
-  font-size: 20px;
+  color: #212121;
+  font-size: 21px;
+  line-height: 1.5;
 }
