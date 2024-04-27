@@ -53,7 +53,6 @@ export default function Dictionary(props) {
             <small>Suggestions: Autumn, Bonsai, Conundrum...</small>
           </div>
         </div>
-        <br />
         <Results results={results} />
         <Images photos={photos} />
       </div>

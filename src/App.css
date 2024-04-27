@@ -1,8 +1,8 @@
 :root {
   --background-colour: #ffff;
   --text-colour: #212121;
-  --primary-colour: #01cccc;
-  --secondary-colour: #e8630a;
+  --primary-colour: #042a75;
+  --secondary-colour: #fd6050;
   --accent-colour: #757575;
   --primary-font: "Jost", sans-serif;
   --secondary-font: "IBM Plex Mono", monospace;
@@ -12,12 +12,12 @@
   margin: 0 auto;
 }
 body {
-  background-color: var(--primary-colour);
+  background-color: #d2dcfd;
   font-family: var(--primary-font);
 }
 header {
-  color: #000000;
-  background-color: var(--background-colour);
+  color: #042a75;
+  background-color: #ffff;
   font-size: 80px;
   font-family: var(--primary-font);
   font-weight: bold;
@@ -33,24 +33,24 @@ header {
   margin-top: 20px;
 }
 img {
-  margin-left: 20px;
+  margin-left: 40px;
   max-width: 100px;
 }
 footer {
-  color: var(--text-colour);
+  color: var(--primary-colour);
   font-size: 16px;
   font-family: var(--secondary-font);
   text-align: center;
   padding: 20px;
   margin: 20px;
   margin-top: 40px;
-  border-top: 2px solid #ffff;
+  border-top: 2px solid var(--secondary-colour);
 }
 footer a {
-  color: var(--text-colour);
+  color: var(--primary-colour);
   text-decoration: none;
   transition: all 150ms ease-in-out;
 }
 footer a:hover {
-  color: #ffff;
+  color: var(--background-colour);
 }

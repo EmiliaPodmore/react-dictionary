@@ -1,12 +1,12 @@
 .Dictionary {
-  background-color: var(--primary-colour);
+  background-color: #d2dcfd;
   color: var(--text-colour);
 }
 .Dictionary section {
-  background-color: var(--background-colour);
+  background-color: #ffff;
   padding: 20px;
   margin: 20px 100px;
-  border-radius: 8px;
+  border-radius: 6px;
 }
 .Search-bar {
   color: #ffff;
@@ -18,12 +18,12 @@
   width: 100%;
   padding: 10px 10px;
   border-radius: 6px;
-  color: var(--background-colour);
-  background-color: var(--primary-colour);
-  border: 1px solid var(--background-colour);
+  color: var(--primary-colour);
+  background-color: #ffff;
+  border: 2px solid var(--primary-colour);
 }
 .Dictionary .Suggestion {
-  color: var(--background-colour);
+  color: var(--primary-colour);
   font-family: var(--secondary-font);
   margin-top: 10px;
   line-height: 1.5;

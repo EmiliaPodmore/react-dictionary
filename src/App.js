@@ -9,8 +9,8 @@ export default function App() {
         <header className="header">
           Dictionary
           <img
-            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/123/700/original/search.gif?1713527221"
-            alt="Animated cartoon book"
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/124/662/original/read.gif?1714237906"
+            alt="Animated flipping through book icon"
           ></img>
         </header>
         <main>
