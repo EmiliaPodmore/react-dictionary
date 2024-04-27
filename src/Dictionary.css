@@ -7,21 +7,20 @@
   padding: 20px;
   margin: 20px 100px;
   border-radius: 8px;
-  border: 2px solid #212121;
 }
 .Search-bar {
   color: #ffff;
   display: flex;
   flex-direction: column;
-  padding: 10px;
   margin: 10px 100px;
 }
 .Dictionary input {
-  color: var(--secondary-colour);
-  width: 78%;
-  padding: 6px 10px;
+  width: 100%;
+  padding: 10px 10px;
   border-radius: 6px;
-  border: 1px solid #ffff;
+  color: var(--background-colour);
+  background-color: var(--primary-colour);
+  border: 1px solid var(--background-colour);
 }
 .Dictionary .Suggestion {
   color: var(--background-colour);

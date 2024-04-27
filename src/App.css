@@ -7,6 +7,10 @@
   --primary-font: "Jost", sans-serif;
   --secondary-font: "IBM Plex Mono", monospace;
 }
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+}
 body {
   background-color: var(--primary-colour);
   font-family: var(--primary-font);
@@ -19,7 +23,6 @@ header {
   font-weight: bold;
   letter-spacing: 4px;
   text-align: center;
-  padding: 20px;
   margin: 20px 100px;
   border-radius: 8px;
 }
