@@ -1,38 +1,39 @@
 .Dictionary {
-  background-color: var(--background-colour);
+  background-color: var(--primary-colour);
   color: var(--text-colour);
 }
 .Dictionary section {
-  background-color: #ffff;
+  background-color: var(--background-colour);
   padding: 20px;
   margin: 20px 100px;
   border-radius: 8px;
+  border: 2px solid #212121;
 }
 .Search-bar {
+  color: #ffff;
   display: flex;
   flex-direction: column;
-  padding: 20px;
-  margin: 20px 100px;
+  padding: 10px;
+  margin: 10px 100px;
 }
 .Dictionary input {
-  color: #e85e66;
-  width: 90%;
+  color: var(--secondary-colour);
+  width: 78%;
   padding: 6px 10px;
   border-radius: 6px;
-  border: 1px solid #d2dcfd;
+  border: 1px solid #ffff;
 }
 .Dictionary .Suggestion {
-  color: #94b2f4;
+  color: var(--background-colour);
   font-family: var(--secondary-font);
   margin-top: 10px;
   line-height: 1.5;
 }
 .Example {
-  color: #26a2cc;
+  color: var(--secondary-colour);
   line-height: 2;
 }
 .Definition {
-  color: #212121;
   font-size: 21px;
   line-height: 1.5;
 }

@@ -2,9 +2,10 @@
   font-size: 48px;
 }
 .Meaning h3 {
+  color: var(--primary-colour);
   font-family: var(--secondary-font);
   line-height: 2;
 }
 .Phonetic {
-  color: #e85e66;
+  color: var(--secondary-colour);
 }

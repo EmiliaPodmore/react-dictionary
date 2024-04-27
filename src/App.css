@@ -1,22 +1,27 @@
 :root {
   --background-colour: #ffff;
-  --text-colour: #042a75;
-  --primary-colour: #26a2cc;
-  --secondary-colour: #fd6050;
+  --text-colour: #212121;
+  --primary-colour: #01cccc;
+  --secondary-colour: #e8630a;
+  --accent-colour: #757575;
   --primary-font: "Jost", sans-serif;
   --secondary-font: "IBM Plex Mono", monospace;
 }
 body {
-  background-color: var(--background-colour);
+  background-color: var(--primary-colour);
   font-family: var(--primary-font);
 }
 header {
-  color: var(--text-colour);
-  font-size: 64px;
+  color: #000000;
+  background-color: var(--background-colour);
+  font-size: 80px;
   font-family: var(--primary-font);
   font-weight: bold;
   letter-spacing: 4px;
   text-align: center;
+  padding: 20px;
+  margin: 20px 100px;
+  border-radius: 8px;
 }
 .header {
   display: flex;
@@ -29,19 +34,20 @@ img {
   max-width: 100px;
 }
 footer {
-  color: var(--secondary-colour);
+  color: var(--text-colour);
   font-size: 16px;
   font-family: var(--secondary-font);
   text-align: center;
   padding: 20px;
-  margin: 30px;
-  border-top: 2px solid #042a75;
+  margin: 20px;
+  margin-top: 40px;
+  border-top: 2px solid #ffff;
 }
 footer a {
-  color: var(--secondary-colour);
+  color: var(--text-colour);
   text-decoration: none;
   transition: all 150ms ease-in-out;
 }
 footer a:hover {
-  color: var(--primary-colour);
+  color: #ffff;
 }
