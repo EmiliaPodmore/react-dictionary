@@ -17,10 +17,12 @@ export default function App() {
           <Dictionary defaultKeyword="spring" />
         </main>
         <footer>
-          Animated icons created by{" "}
+          Animated icon created by{" "}
           <a
             href="https://www.flaticon.com/free-animated-icons/ethics"
             title="ethics animated icons"
+            target="_blank"
+            rel="noreferrer"
           >
             Freepik - Flaticon
           </a>
@@ -28,7 +30,7 @@ export default function App() {
           <a
             href="https://www.shecodes.io/graduates/97316-emilia-podmore"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noreferrer"
           >
             Emilia Podmore
           </a>
@@ -36,7 +38,7 @@ export default function App() {
           <a
             href="https://github.com/EmiliaPodmore/react-dictionary"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noreferrer"
           >
             open-sourced on Github
           </a>{" "}
@@ -44,7 +46,7 @@ export default function App() {
           <a
             href="https://keyword-react-dictionary.netlify.app/"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noreferrer"
           >
             hosted on Netlify{" "}
           </a>

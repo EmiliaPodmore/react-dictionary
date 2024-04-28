@@ -47,11 +47,9 @@ export default function Dictionary(props) {
               type="search"
               autoFocus={true}
               onChange={handleKeywordChange}
+              placeholder="Suggestions: Autumn, Bonsai, Conundrum..."
             />
           </form>
-          <div className="Suggestion">
-            <small>Suggestions: Autumn, Bonsai, Conundrum...</small>
-          </div>
         </div>
         <Results results={results} />
         <Images photos={photos} />
