@@ -33,7 +33,7 @@ header {
   margin-top: 20px;
 }
 img {
-  margin-left: 40px;
+  margin-left: 20px;
   max-width: 100px;
 }
 footer {
@@ -53,4 +53,18 @@ footer a {
 }
 footer a:hover {
   color: var(--background-colour);
+}
+@media (max-width: 960px) {
+  header {
+    font-size: 60px;
+  }
+}
+@media (max-width: 390px) {
+  header {
+    font-size: 20px;
+  }
+  img {
+    max-width: 20px;
+    margin-left: 10px;
+  }
 }
