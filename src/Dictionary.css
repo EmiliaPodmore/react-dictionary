@@ -1,13 +1,12 @@
 .Dictionary {
-  background-color: #d2dcfd;
   color: var(--text-colour);
 }
 .Dictionary section {
-  background-color: #ffff;
+  background-color: #faf9d8;
   padding: 20px;
   margin: 20px 100px;
   border-radius: 6px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  border: 0.5px solid black;
 }
 .Search-bar {
   display: flex;
@@ -20,11 +19,11 @@
   margin: 20px 0;
   border-radius: 6px;
   color: var(--primary-colour);
-  background-color: #ffff;
-  border: 2px solid var(--primary-colour);
+  background-color: var(--section-colour);
+  border: 0.5px solid var(--text-colour);
 }
 .Example {
-  color: var(--secondary-colour);
+  color: var(--primary-colour);
   line-height: 2;
 }
 .Definition {

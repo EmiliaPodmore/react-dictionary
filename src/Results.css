@@ -7,5 +7,8 @@
   line-height: 2;
 }
 .Phonetic {
-  color: var(--secondary-colour);
+  color: var(--background-colour);
+}
+.Example {
+  color: var(--background-colour);
 }

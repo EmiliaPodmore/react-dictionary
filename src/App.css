@@ -1,8 +1,9 @@
 :root {
-  --background-colour: #ffff;
+  --background-colour: #f49ac0;
+  --section-colour: #faf9d8;
   --text-colour: #212121;
-  --primary-colour: #042a75;
-  --secondary-colour: #fd6050;
+  --primary-colour: #f25424;
+  --secondary-colour: #f16943;
   --accent-colour: #757575;
   --primary-font: "Jost", sans-serif;
   --secondary-font: "IBM Plex Mono", monospace;
@@ -12,13 +13,13 @@
   margin: 0 auto;
 }
 body {
-  background-color: #d2dcfd;
+  background-color: #f698c2;
   font-family: var(--primary-font);
 }
 header {
-  color: #042a75;
-  background-color: #ffff;
-  font-size: 80px;
+  color: var(--section-colour);
+  text-shadow: 4px 4px var(--secondary-colour);
+  font-size: 90px;
   font-family: var(--primary-font);
   font-weight: bold;
   letter-spacing: 4px;
@@ -37,7 +38,7 @@ img {
   max-width: 100px;
 }
 footer {
-  color: var(--primary-colour);
+  color: var(--section-colour);
   font-size: 16px;
   font-family: var(--secondary-font);
   text-align: center;
@@ -47,12 +48,12 @@ footer {
   border-top: 2px solid var(--secondary-colour);
 }
 footer a {
-  color: var(--primary-colour);
+  color: var(--section-colour);
   text-decoration: none;
   transition: all 150ms ease-in-out;
 }
 footer a:hover {
-  color: var(--background-colour);
+  color: var(--text-colour);
 }
 @media (max-width: 960px) {
   header {
