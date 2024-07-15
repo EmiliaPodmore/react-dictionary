@@ -17,10 +17,11 @@
   width: 100%;
   padding: 10px 10px;
   margin: 20px 0;
+  border: 0.5px solid var(--section-colour);
   border-radius: 6px;
   color: var(--primary-colour);
   background-color: var(--section-colour);
-  border: 0.5px solid var(--text-colour);
+  box-shadow: 4px 4px rgba(241, 105, 67);
 }
 .Example {
   color: var(--primary-colour);
