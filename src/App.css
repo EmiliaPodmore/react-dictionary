@@ -19,19 +19,20 @@ body {
 header {
   color: var(--section-colour);
   text-shadow: 4px 4px var(--secondary-colour);
-  font-size: 90px;
+  font-size: 100px;
   font-family: var(--primary-font);
   font-weight: bold;
-  letter-spacing: 4px;
+  letter-spacing: 5px;
   text-align: center;
   margin: 20px 100px;
   border-radius: 8px;
+  opacity: 0;
+  animation: fadeIn 3s forwards;
 }
-.header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 20px;
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
 }
 img {
   margin-left: 20px;
@@ -45,7 +46,7 @@ footer {
   padding: 20px;
   margin: 20px;
   margin-top: 40px;
-  border-top: 2px solid var(--secondary-colour);
+  border-top: 1px solid var(--secondary-colour);
 }
 footer a {
   color: var(--section-colour);

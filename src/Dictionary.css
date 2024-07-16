@@ -4,7 +4,7 @@
 .Dictionary section {
   background-color: #faf9d8;
   padding: 20px;
-  margin: 20px 100px;
+  margin: 10px 100px;
   border-radius: 6px;
   border: 0.5px solid black;
 }
@@ -12,23 +12,26 @@
   display: flex;
   flex-direction: column;
   margin: 10px 100px;
+  padding-bottom: 20px;
 }
 .Dictionary input {
   width: 100%;
   padding: 10px 10px;
   margin: 20px 0;
+  color: var(--text-colour);
+  font-size: 14px;
   border: 0.5px solid var(--section-colour);
-  border-radius: 6px;
-  color: var(--primary-colour);
+  border-radius: 10px;
   background-color: var(--section-colour);
   box-shadow: 4px 4px rgba(241, 105, 67);
+  letter-spacing: 2px;
 }
 .Example {
   color: var(--primary-colour);
   line-height: 2;
 }
 .Definition {
-  font-size: 21px;
+  font-size: 22px;
   line-height: 1.5;
 }
 @media (max-width: 390px) {
