@@ -6,7 +6,7 @@
   padding: 20px;
   margin: 10px 100px;
   border-radius: 6px;
-  border: 0.5px solid black;
+  border: 0.5px solid var(--text-colour);
 }
 .Search-bar {
   display: flex;
@@ -16,15 +16,15 @@
 }
 .Dictionary input {
   width: 100%;
+  color: var(--background-colour);
+  font-size: 16px;
+  border-radius: 10px;
+  border: 0.5px solid var(--section-colour);
+  background-color: var(--section-colour);
+  box-shadow: 4px 4px var(--secondary-colour);
+  letter-spacing: 3px;
   padding: 10px 10px;
   margin: 20px 0;
-  color: var(--text-colour);
-  font-size: 14px;
-  border: 0.5px solid var(--section-colour);
-  border-radius: 10px;
-  background-color: var(--section-colour);
-  box-shadow: 4px 4px rgba(241, 105, 67);
-  letter-spacing: 2px;
 }
 .Example {
   color: var(--primary-colour);
