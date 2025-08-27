@@ -11,15 +11,6 @@ export default function App() {
           <Dictionary defaultKeyword="spring" />
         </main>
         <footer>
-          Inspired by the book cover{" "}
-          <a
-            href="https://www.waterstones.com/book/i-hope-this-finds-you-well/natalie-sue/9780008604455"
-            target="_blank"
-            rel="noreferrer"
-          >
-            "I Hope This Finds You Well"{" "}
-          </a>
-          <br />
           This project was coded by{" "}
           <a
             href="https://www.shecodes.io/graduates/97316-emilia-podmore"

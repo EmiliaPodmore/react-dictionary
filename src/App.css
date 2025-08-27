@@ -1,10 +1,10 @@
 :root {
-  --background-colour: #f49ac0;
-  --section-colour: #faf9d8;
-  --text-colour: #212121;
-  --primary-colour: #f25424;
-  --secondary-colour: #f16943;
-  --accent-colour: #757575;
+  --background-colour: #f6b0cf;
+  --section-colour: #faf8f0;
+  --text-colour: #231f20;
+  --primary-colour: #90d3cf;
+  --secondary-colour: #ffd67b;
+  --accent-colour: #7ecee8;
   --primary-font: "Jost", sans-serif;
   --secondary-font: "IBM Plex Mono", monospace;
 }
@@ -13,7 +13,7 @@
   margin: 0 auto;
 }
 body {
-  background-color: #f698c2;
+  background-color: var(--background-colour);
   font-family: var(--primary-font);
 }
 header {
