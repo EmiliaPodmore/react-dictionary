@@ -1,6 +1,6 @@
 .Results h1 {
   color: var(--colour-tertiary);
-  font-size: 48px;
+  font-size: 54px;
 }
 .Meaning h3 {
   color: var(--colour-secondary);
@@ -9,8 +9,8 @@
   line-height: 2;
 }
 .Phonetic {
-  color: var(--colour-primary);
+  color: #c3a2cd;
 }
 .Example {
-  color: #c3a2cd;
+  color: var(--colour-primary);
 }
