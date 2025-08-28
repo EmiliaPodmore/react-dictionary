@@ -47,7 +47,6 @@ export default function Dictionary(props) {
               type="search"
               autoFocus={true}
               onChange={handleKeywordChange}
-              placeholder="Suggestions: Autumn, Bonsai, Conundrum..."
             />
           </form>
         </div>

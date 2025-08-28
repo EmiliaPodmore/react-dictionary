@@ -2,11 +2,10 @@
   color: var(--text-colour);
 }
 .Dictionary section {
-  background-color: #faf9d8;
+  background-color: #faf8f0;
   padding: 20px;
   margin: 10px 100px;
   border-radius: 6px;
-  border: 0.5px solid var(--text-colour);
 }
 .Search-bar {
   display: flex;
@@ -16,22 +15,21 @@
 }
 .Dictionary input {
   width: 100%;
-  color: var(--background-colour);
+  color: var(--colour-background);
   font-size: 16px;
   border-radius: 10px;
-  border: 0.5px solid var(--section-colour);
-  background-color: var(--section-colour);
-  box-shadow: 4px 4px var(--secondary-colour);
+  border: 0.5px solid var(--colour-accent);
+  background-color: var(--colour-section);
+  box-shadow: 4px 4px var(--colour-accent);
   letter-spacing: 3px;
   padding: 10px 10px;
   margin: 20px 0;
 }
 .Example {
-  color: var(--primary-colour);
   line-height: 2;
 }
 .Definition {
-  font-size: 21px;
+  font-size: 20px;
   line-height: 1.5;
 }
 @media (max-width: 390px) {

@@ -1,26 +1,26 @@
 :root {
-  --background-colour: #f6b0cf;
-  --section-colour: #faf8f0;
-  --text-colour: #231f20;
-  --primary-colour: #90d3cf;
-  --secondary-colour: #ffd67b;
-  --accent-colour: #7ecee8;
-  --primary-font: "Jost", sans-serif;
-  --secondary-font: "IBM Plex Mono", monospace;
+  --colour-background: #f6b0cf;
+  --colour-section: #faf8f0;
+  --colour-text: #231f20;
+  --colour-primary: #f79b72;
+  --colour-secondary: #7ecee8;
+  --colour-tertiary: #90d3cf;
+  --colour-accent: #ffd67b;
+  --font-primary: "Jost", sans-serif;
+  --font-secondary: "IBM Plex Mono", monospace;
 }
 .App {
   max-width: 960px;
   margin: 0 auto;
 }
 body {
-  background-color: var(--background-colour);
-  font-family: var(--primary-font);
+  background-color: var(--colour-background);
+  font-family: var(--font-primary);
 }
 header {
-  color: var(--section-colour);
-  text-shadow: 4px 4px var(--secondary-colour);
+  color: var(--colour-accent);
   font-size: 100px;
-  font-family: var(--primary-font);
+  font-family: var(--font-primary);
   font-weight: bold;
   letter-spacing: 5px;
   text-align: center;
@@ -32,22 +32,22 @@ img {
   max-width: 100px;
 }
 footer {
-  color: var(--section-colour);
+  color: var(--colour-section);
   font-size: 16px;
-  font-family: var(--secondary-font);
+  font-family: var(--font-secondary);
   text-align: center;
   padding: 20px;
   margin: 20px;
   margin-top: 40px;
-  border-top: 1px solid var(--secondary-colour);
+  border-top: 1px solid var(--colour-accent);
 }
 footer a {
-  color: var(--section-colour);
+  color: var(--colour-section);
   text-decoration: none;
   transition: all 150ms ease-in-out;
 }
 footer a:hover {
-  color: var(--text-colour);
+  color: var(--colour-text);
 }
 @media (max-width: 960px) {
   header {
