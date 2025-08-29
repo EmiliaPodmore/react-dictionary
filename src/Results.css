@@ -3,7 +3,9 @@
   font-size: 60px;
 }
 section h1 {
-  font-family: var(--font-secondary);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
 }
 .Meaning h3 {
   color: var(--colour-secondary);
