@@ -2,6 +2,9 @@
   color: var(--colour-tertiary);
   font-size: 60px;
 }
+section h1 {
+  font-family: var(--font-secondary);
+}
 .Meaning h3 {
   color: var(--colour-secondary);
   font-size: 30px;
