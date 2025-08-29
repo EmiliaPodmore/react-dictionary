@@ -17,15 +17,30 @@ body {
   background-color: var(--colour-background);
   font-family: var(--font-primary);
 }
-header {
-  color: var(--colour-accent);
+header h1 {
   font-size: 100px;
   font-family: var(--font-primary);
   font-weight: bold;
   letter-spacing: 5px;
   text-align: center;
+  text-shadow: 3px 4px var(--colour-section);
   margin: 20px 100px;
   border-radius: 8px;
+}
+.first {
+  color: var(--colour-tertiary);
+}
+.second {
+  color: var(--colour-secondary);
+}
+.third {
+  color: #c3a2cd;
+}
+.fourth {
+  color: var(--colour-primary);
+}
+.fifth {
+  color: #ffd67b;
 }
 img {
   margin-left: 20px;
@@ -33,13 +48,13 @@ img {
 }
 footer {
   color: var(--colour-section);
-  font-size: 16px;
+  font-size: 18px;
   font-family: var(--font-secondary);
   text-align: center;
   padding: 20px;
   margin: 20px;
   margin-top: 40px;
-  border-top: 1px solid var(--colour-accent);
+  border-top: 2px solid var(--colour-tertiary);
 }
 footer a {
   color: var(--colour-section);
