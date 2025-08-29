@@ -2,11 +2,6 @@
   color: var(--colour-tertiary);
   font-size: 60px;
 }
-section h1 {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  font-weight: bold;
-}
 .Meaning h3 {
   color: var(--colour-secondary);
   font-size: 30px;
@@ -15,6 +10,7 @@ section h1 {
 }
 .Phonetic {
   color: #c3a2cd;
+  font-family: var(--font-secondary);
 }
 .Example {
   color: var(--colour-primary);
