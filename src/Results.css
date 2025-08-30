@@ -15,3 +15,21 @@
 .Example {
   color: var(--colour-primary);
 }
+
+@media (max-width: 768px) {
+  .Results h1 {
+    font-size: 36px;
+  }
+  .Meaning h3 {
+    font-size: 20px;
+    line-height: 1.6;
+  }
+}
+@media (max-width: 480px) {
+  .Results h1 {
+    font-size: 28px;
+  }
+  .Meaning h3 {
+    font-size: 18px;
+  }
+}

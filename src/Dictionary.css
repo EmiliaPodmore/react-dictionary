@@ -30,6 +30,34 @@
   font-size: 20px;
   line-height: 1.5;
 }
+
+@media (max-width: 768px) {
+  .Dictionary section,
+  .Search-bar {
+    margin: 10px 20px;
+    padding: 15px;
+  }
+
+  .Definition {
+    font-size: 18px;
+  }
+}
+@media (max-width: 480px) {
+  .Dictionary section,
+  .Search-bar {
+    margin: 10px;
+    padding: 12px;
+  }
+
+  .Dictionary input {
+    font-size: 14px;
+    letter-spacing: 0.05cm;
+  }
+
+  .Definition {
+    font-size: 16px;
+  }
+}
 @media (max-width: 390px) {
   .Dictionary {
     font-size: 16px;
