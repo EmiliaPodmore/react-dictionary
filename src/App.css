@@ -21,7 +21,7 @@ header h1 {
   font-size: 100px;
   font-family: var(--font-primary);
   font-weight: bold;
-  letter-spacing: 5px;
+  letter-spacing: 0.2cm;
   text-align: center;
   text-shadow: 3px 4px var(--colour-section);
   margin: 20px 100px;
