@@ -7,6 +7,10 @@
   margin: 10px 100px;
   border: 0.5px solid var(--colour-text);
   border-radius: 6px;
+  transition: ease-in-out 150ms;
+}
+.Dictionary section:hover {
+  transform: scale(1.02);
 }
 .Search-bar {
   display: flex;
@@ -37,7 +41,6 @@
     margin: 10px 20px;
     padding: 15px;
   }
-
   .Definition {
     font-size: 18px;
   }
@@ -48,12 +51,10 @@
     margin: 10px;
     padding: 12px;
   }
-
   .Dictionary input {
     font-size: 14px;
     letter-spacing: 0.05cm;
   }
-
   .Definition {
     font-size: 16px;
   }
