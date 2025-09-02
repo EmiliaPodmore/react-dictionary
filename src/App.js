@@ -26,7 +26,7 @@ export default function App() {
         <footer>
           This project was coded by{" "}
           <a
-            href="https://www.shecodes.io/graduates/97316-emilia-podmore"
+            href="https://emiliapodmoredev.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
