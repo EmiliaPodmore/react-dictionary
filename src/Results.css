@@ -1,16 +1,18 @@
 .Results h1 {
   color: var(--colour-tertiary);
   font-size: 64px;
+  text-align: center;
 }
 .Meaning h3 {
   color: var(--colour-secondary);
   font-size: 30px;
   font-family: var(--font-secondary);
-  line-height: 2;
+  line-height: 1.5;
 }
 .Phonetic {
   color: #c3a2cd;
   font-family: var(--font-secondary);
+  text-align: center;
 }
 .Example {
   color: var(--colour-primary);

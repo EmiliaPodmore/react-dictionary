@@ -4,13 +4,14 @@
 .Dictionary section {
   background-color: var(--colour-section);
   padding: 20px;
-  margin: 10px 100px;
+  margin: 14px 100px;
   border: 0.5px solid var(--colour-text);
   border-radius: 6px;
   transition: ease-in-out 150ms;
 }
 .Dictionary section:hover {
   transform: scale(1.02);
+  box-shadow: 6px 4px 0px #f49ac0;
 }
 .Search-bar {
   display: flex;
@@ -25,7 +26,7 @@
   font-size: 16px;
   letter-spacing: 0.1cm;
   border: transparent;
-  border-bottom: 2px solid var(--colour-accent);
+  border-bottom: 0.5px solid var(--colour-text);
   background-color: transparent;
   padding: 10px 10px;
   margin: 10px 0;
