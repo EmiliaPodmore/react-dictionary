@@ -2,6 +2,7 @@
   --colour-background: #f6b0cf;
   --colour-section: #faf8f0;
   --colour-text: #143c3c;
+  --colour-shadow: #f49ac0;
   --colour-primary: #f79b72;
   --colour-secondary: #7ecee8;
   --colour-tertiary: #90d3cf;
@@ -26,6 +27,10 @@ header h1 {
   text-shadow: 3px 3px var(--colour-section);
   margin: 40px 100px;
   border-radius: 8px;
+  transition: ease-in-out 150ms;
+}
+header h1:hover {
+  text-shadow: 3px 3px var(--colour-shadow);
 }
 .first {
   color: var(--colour-tertiary);
@@ -40,7 +45,7 @@ header h1 {
   color: var(--colour-primary);
 }
 .fifth {
-  color: #ffd67b;
+  color: var(--colour-accent);
 }
 img {
   margin-left: 20px;
