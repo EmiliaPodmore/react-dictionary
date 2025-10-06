@@ -32,7 +32,7 @@ export default function App() {
           >
             Emilia Podmore
           </a>
-          , it is{" "}
+          ,<br /> it is{" "}
           <a
             href="https://github.com/EmiliaPodmore/react-dictionary"
             target="_blank"

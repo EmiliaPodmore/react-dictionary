@@ -1,7 +1,7 @@
 :root {
   --colour-background: #f6b0cf;
   --colour-section: #faf8f0;
-  --colour-text: #231f20;
+  --colour-text: #143c3c;
   --colour-primary: #f79b72;
   --colour-secondary: #7ecee8;
   --colour-tertiary: #90d3cf;
@@ -23,8 +23,8 @@ header h1 {
   font-weight: bold;
   letter-spacing: 0.2cm;
   text-align: center;
-  text-shadow: 3px 4px var(--colour-section);
-  margin: 20px 100px;
+  text-shadow: 3px 3px var(--colour-section);
+  margin: 40px 100px;
   border-radius: 8px;
 }
 .first {
@@ -42,19 +42,17 @@ header h1 {
 .fifth {
   color: #ffd67b;
 }
-
 img {
   margin-left: 20px;
-  max-width: 100px;
+  max-width: 120px;
 }
 footer {
   color: var(--colour-section);
-  font-size: 16px;
+  font-size: 18px;
   font-family: var(--font-secondary);
   text-align: center;
-  padding: 20px;
+  padding: 10px;
   margin: 20px;
-  border-top: 1px solid var(--colour-tertiary);
 }
 footer a {
   color: var(--colour-section);
@@ -62,27 +60,59 @@ footer a {
   transition: all 150ms ease-in-out;
 }
 footer a:hover {
-  color: var(--colour-text);
+  color: var(--colour-accent);
 }
 
+@media (max-width: 992px) {
+  header h1 {
+    font-size: 90px;
+    margin: 30px 60px;
+  }
+
+  img {
+    max-width: 100px;
+  }
+}
 @media (max-width: 768px) {
   header h1 {
-    font-size: 52px;
+    font-size: 70px;
     margin: 20px 40px;
+    letter-spacing: 0.15cm;
+    text-shadow: 2px 2px var(--colour-section);
+  }
+  img {
+    max-width: 80px;
+    margin-left: 15px;
   }
 }
 @media (max-width: 600px) {
   header h1 {
-    margin: 20px;
-    text-shadow: 2px 2px var(--colour-section);
-  }
-}
-@media (max-width: 460px) {
-  header h1 {
-    font-size: 44px;
+    font-size: 56px;
+    margin: 15px 20px;
+    letter-spacing: 0.1cm;
   }
   img {
-    max-width: 20px;
+    max-width: 60px;
     margin-left: 10px;
+  }
+  footer {
+    font-size: 14px;
+    margin: 10px;
+  }
+}
+@media (max-width: 420px) {
+  header h1 {
+    font-size: 42px;
+    margin: 10px;
+    text-shadow: 1px 1px var(--colour-section);
+    letter-spacing: 0.05cm;
+  }
+  img {
+    max-width: 40px;
+    margin-left: 5px;
+  }
+  footer {
+    font-size: 12px;
+    padding: 6px;
   }
 }

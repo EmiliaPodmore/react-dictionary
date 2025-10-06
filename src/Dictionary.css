@@ -4,13 +4,13 @@
 .Dictionary section {
   background-color: var(--colour-section);
   padding: 20px;
-  margin: 14px 100px;
+  margin: 20px 160px;
   border: 0.5px solid var(--colour-text);
   border-radius: 6px;
   transition: ease-in-out 150ms;
 }
 .Dictionary section:hover {
-  transform: scale(1.02);
+  transform: scale(1.04);
   box-shadow: 6px 4px 0px #f49ac0;
 }
 .Search-bar {
@@ -26,42 +26,47 @@
   font-size: 16px;
   letter-spacing: 0.1cm;
   border: transparent;
-  border-bottom: 0.5px solid var(--colour-text);
+  border-bottom: 1.5px solid #f49ac0;
   background-color: transparent;
-  padding: 10px 10px;
+  padding: 10px;
   margin: 10px 0;
 }
 .Definition {
-  font-size: 20px;
-  line-height: 1.5;
+  font-size: 22px;
+  line-height: 1.6;
 }
 
-@media (max-width: 768px) {
-  .Dictionary section,
-  .Search-bar {
-    margin: 10px 20px;
-    padding: 15px;
+@media (max-width: 600px) {
+  .Dictionary section {
+    margin: 12px 25px;
+    padding: 14px;
   }
-  .Definition {
-    font-size: 18px;
-  }
-}
-@media (max-width: 480px) {
-  .Dictionary section,
   .Search-bar {
-    margin: 10px;
-    padding: 12px;
+    margin: 8px 20px;
   }
   .Dictionary input {
     font-size: 14px;
+    letter-spacing: 0.06cm;
+    padding: 8px;
+  }
+  .Definition {
+    font-size: 17px;
+  }
+}
+@media (max-width: 420px) {
+  .Dictionary section {
+    margin: 10px 10px;
+    padding: 12px;
+  }
+  .Search-bar {
+    margin: 6px 10px;
+  }
+  .Dictionary input {
+    font-size: 13px;
     letter-spacing: 0.05cm;
   }
   .Definition {
     font-size: 16px;
-  }
-}
-@media (max-width: 390px) {
-  .Dictionary {
-    font-size: 16px;
+    line-height: 1.4;
   }
 }
